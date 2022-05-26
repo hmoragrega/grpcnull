@@ -4,6 +4,11 @@ Is an empty gRPC server.
 
 Its main use is to provide a dummy service that can replace real services.
 
+## Install
+```
+go install github.com/hmoragrega/grpcnull@latest
+```
+
 ## Usage
 ```
 grpcnull [ADDRESS] [FLAGS]
